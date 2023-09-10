@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header style="padding: 2%">
+        <div class="linea"></div>
+
+        <div>
+            <article style="display: flex; justify-content: space-between;">
+                <section>
+                    <h2 style="font-family: 'Coiny', cursive;">wwwwapas</h2>
+                </section>
+
+                <!--Aqui tenemos dos opciones que nos llevan hacia
+                    partes especificas de la pagina-->
+                <section style="padding-right: 7%;padding-top: 5%; text-align: center;">
+                        <a class="aumentar_escala" href="#servicios" style="margin-right: 50px; margin-top: 20px;">Servicios</a>
+                        <a class="aumentar_escala" href="#contacto" style="margin-right: 50px; margin-top: 20px;">Contacto</a>
+                        <a>login</a>
+                </section>
+            </article>
+        </div>
+        
+        
+        
+        <div style="display: flex;">
+            <section style="width: 35%; padding: 4%">
+
+                <h2 style="font-size: 40px;">somos <span style="font-size: 70px; font-family: 'Coiny', cursive;">wwwapas</span></h2>
+
+                <h2 id="inicio" class="fondo_amarillo" style="font-size: 12px;">social media managers | creadoras de contenido</h2>
+                
+                <p  style="padding-top: 4%;">
+                Nos encargamos de construir, gestionar y administrar la comunidad
+                online de tu marca, empresa o negocio <strong>¡Creamos relaciones estables y
+                duraderas con tus clientes!</strong>
+                </p>
+            </section>
+            <section style="margin: auto;">
+                <img src="../images/foto.png" alt="Foto de dos mujeres - Introduccion" style="width: 330px">
+            </section>
+        </div>
+
+    </header>
+
+    <main>
+        <div style="display: flex;">   
+        <section style="padding: 4%">
+        <h2 class="fondo_amarillo">    ¡Hola! Somos SOFI & JULIA,</h2>
+        <p>
+            las social media managers, las creadoras de contenido, las
+            copywriters, las generadoras de leads, las diseñadoras, las
+            estrategas en marketing digital, las potenciadoras de ventas,
+            el posicionamiento de tu marca <strong>¡Somos el complemento que
+                necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong>
+        </p>
+        </section>
+
+        <section style="padding: 4%">
+        <h2 class="fondo_amarillo">GESTIONAMOS TUS REDES SOCIALES</h2>
+        <p>
+            La transformación digital no es solo para grandes compañías,
+            todas las empresas deben emprenderla cuanto antes y aquí
+            es donde podemos asistirte. Armamos estrategias a medida
+            para tu empresa, marca o producto <strong>¡Aumentá tu presencia
+            digital y generá nuevas ventas y contactos!</strong>
+        </p>
+        </section>
+        </div>
+        <hr style="border-bottom: 1px solid black; background-color: black;"></hr>
+
+        <div style="display: flex; padding-top: 5%; padding-bottom: 5%;">
+            <section>
+                <img src="../images/img-servicios.png" alt="Dibujo atractivo de wwwapas" 
+                style="width: 330px; margin-left: 60px; align-items: center;">
+            </section>
+
+            <section style="padding: 4%">
+            <h2 id="servicios" style="margin-left: 20px;">Servicios</h2>
+            <ol style="margin-left: 20px;">
+                <li>Análisis de perfil (Benchmarking)</li>
+                <li>Revisión y activación de canales</li>
+                <li>Gestión, creación y diseño de contenido</li>
+                <li>Respuestas a mensajes y consultas</li>
+                <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
+                <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
+                <li id="fondo_amarillo_grande"><strong>¡Empezamos a comunicar!</strong></li>
+            </ol>
+            </section>
+        </div>
+        <hr style="border-bottom: 1px solid black;  background-color: black;"></hr>
+
+        <div style="padding-bottom: 4%;" id="contacto">
+            <form style="display: flex; align-items: center;" action="action.php" method="post">
+                <section >
+                    <h2 class="fondo_negro"
+                    style="margin-left: 60px">¿Querés que nos contactemos con vos?</h2>
+                    <h3 class="fondo_amarillo" 
+                    style="padding-left: 1%; padding-right: 1%; margin-left: 60px;">Envianos tu consulta >></h3>
+                </section>
+                
+                <section style="font-weight: 700;">
+                    <label for="name">Nombre: <span class="asterisco">*</span><br></label>
+                    <input style="width: 120%; margin-bottom: 10px; padding-right: 19px;" type="text" name="nombre" required><br>
+
+                    <label for="mail">Email: <span class="asterisco">*</span><br></label>
+                    <input placeholder="dominio@gmail.com" style="width: 120%; margin-bottom: 10px; padding-right: 19px;" type="email" 
+                    name="mail" required><br>
+
+                    <label>Mensaje: <span class="asterisco">*</span><br></label>
+                    <textarea  rows="6" style="width: 130%;" name="mensaje" required></textarea><br>
+                
+                    <section style="margin-top: 10px">
+                        <button class="aumentar_tamaño">Enviar consulta</button>
+
+                        <button class="aumentar_tamaño" style="margin-left:13px">Borrar</button>
+                    </section>
+                </section>
+
+            </form>
+
+<!--Aqui tenemos las imagenes del fondo, donde cada una esta conectada con un link que nos lleva a cada uno de los sitios-->
+            <article style="display: flex; padding-top: 4%; justify-content: center;">
+                <p style="color: grey">redes <br> wwwapas</p>
+                    <a href="https://www.instagram.com/" style="padding-left: 6%; padding-right: 6%;" target="_blank">
+                        <img src="../images/instagram-icon.png" alt="Logo de instagram">
+                    </a>
+                    <a href="https://dribbble.com/" style="padding-left: 6%; padding-right: 6%;" target="_blank">
+                        <img src="../images/dribbble-icon.png" alt="Logo de dribble" style="padding-left: 6%; padding-right: 6%;">
+                    </a>
+                    <a href="https://ar.linkedin.com/" style="padding-left: 6%; padding-right: 6%;" target="_blank">
+                        <img src="../images/linkedin-icon.png" alt="Logo de lonkedin" style="padding-left: 6%; padding-right: 6%;">
+                    </a>
+                    <a href="https://es-la.facebook.com/" style="padding-left: 6%; padding-right: 6%;" target="_blank">
+                        <img src="../images/facebook-icon.png" alt="Logo de facebook" style="padding-left: 6%; padding-right: 6%;">
+                    </a>
+            </article>
+                
+        </div>
+        
+    </main>
+
+    <footer>
+        <h2 style="padding-right: 15%; padding-left: 4%; font-family: 'Coiny', cursive;">wwwapas</h2>
+        <a class="aumentar_escala" href="mailto:wwwapas@gmail.com">wwwapas@gmail.com</a>
+    </footer>
+    
+    
+ 
+
+
+</body>
+</html>
